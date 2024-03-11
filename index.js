@@ -1,6 +1,13 @@
 const imgContainer = document.getElementById("img-container");
 const title = document.getElementById("title");
 
+function handleDefaultSearch() {
+  const defaultSearch = "funny";
+  findGif(defaultSearch);
+}
+
+window.addEventListener("load", handleDefaultSearch);
+
 function handleSubmit(event) {
   event.preventDefault(); // Prevent form submission
 
