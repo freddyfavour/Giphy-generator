@@ -9,11 +9,16 @@ function handleDefaultSearch() {
 window.addEventListener("load", handleDefaultSearch);
 
 function handleSubmit(event) {
-  event.preventDefault(); // Prevent form submission
+  event.preventDefault();
 
-  const search = document.getElementById("search").value; // Get the current value of the search input
+  const searchInput = document.getElementById("search");
+  const search = searchInput.value.trim();
 
-  findGif(search);
+  if (search === "") {
+    alert("Please enter a search term!");
+  } else {
+    findGif(search);
+  }
 }
 
 function findGif(search) {
