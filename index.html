@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Giphy Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <p class="header">The Gif generating machine 🥹</p>
+    <form>
+      <input type="text" id="search" placeholder="Search for gifs" />
+      <button onclick="handleSubmit(event);">Load</button>
+    </form>
+    <div id="img-container"></div>
+    <p id="title"></p>
+    <script src="index.js"></script>
+  </body>
+</html>
