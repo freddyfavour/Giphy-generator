@@ -34,5 +34,10 @@ function findGif(search) {
     })
     .catch(function (error) {
       console.error("Error:", error);
+      imgContainer.innerHTML = "";
+      errortxt = document.createElement("p");
+      errortxt.classList.add("error-text");
+      errortxt.innerText = "Gif unable to load,check connection";
+      imgContainer.appendChild(errortxt);
     });
 }

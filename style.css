@@ -53,3 +53,8 @@ button {
 .img {
   border-radius: 10px;
 }
+
+.error-text {
+  padding: 0.5rem;
+  color: rgba(248, 46, 46, 0.664);
+}
