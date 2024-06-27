@@ -1,8 +1,3 @@
-Here is the updated README file with your image and repository link:
-
-### README.md
-
-```markdown
 # Giphies Generator
 
 ![Giphies Generator](https://github.com/freddyfavour/Giphy-generator/blob/main/giphy.png?raw=true)
@@ -78,6 +73,4 @@ If you have any questions or feedback, feel free to reach out to the project mai
 ---
 
 Visit the live app [here](https://giphies-generator.vercel.app/).
-```
 
-Feel free to customize further if needed!
